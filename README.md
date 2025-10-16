@@ -36,3 +36,61 @@
     }
   ]
 }
+
+## json
+{
+  "meta": {
+    "version": "4.0",
+    "last_updated": "2025-12-15T00:00:00Z",
+    "ecosystem_name": "Дома-Цены.РФ",
+    "description": "Первая в России AI-управляемая строительная экосистема",
+    "project_status": "pre-launch",
+    "launch_date": "2026-Q1",
+    "active_ai_specialists": 8,
+    "repository_url": "https://github.com/ВАШ_НИК/doma-ceny-ecosystem",
+    "file_url": "https://ВАШ_НИК.github.io/doma-ceny-ecosystem/API/ecosystem_team.json",
+    "partners_db_url": "https://ВАШ_НИК.github.io/doma-ceny-ecosystem/API/partners.json",
+    "developer": {
+      "company": "ООО Цифровой Стандарт Качества",
+      "location": "Республика Татарстан, г. Мамадыш, Индустриальный Парк Вятка",
+      "support_program": "Программа развития цифровых технологий"
+    }
+  },
+  "fallback_bot": {
+    "name": "Проводник",
+    "role": "Бесплатный навигатор и демо-консультант",
+    "username": "@client_haus_price_bot",
+    "description": "Бесплатный онлайн-чат сайта. Демонстрирует превосходство AI-экспертов. Продает концепцию строительства через нейросеть.",
+    "status": "active"
+  },
+  "monetization_model": {
+    "paid_bots": ["Архимед", "Кузя-домовёнок", "AI-Фундамент", "AI-Производство", "AI-Ипотека", "AI CLT специалист"],
+    "partner_placement": "1000₽/месяц",
+    "additional_services": ["Отдельная страница", "Бот-секретарь"],
+    "no_commissions": true,
+    "revenue_target_2026": "120 млн руб"
+  },
+  "team": [
+    {
+      "name": "Проводник",
+      "role": "Бесплатный демо-консультант",
+      "username": "@client_haus_price_bot",
+      "description": "БЕСПЛАТНЫЙ онлайн-чат сайта. Убеждает в превосходстве строительства через нейросеть. Демонстрирует возможности AI-экспертов. Может рекомендовать партнеров из базы.",
+      "expertise_keywords": ["кто поможет", "не знаю к кому обратиться", "помощь", "подбор специалиста", "с чего начать", "навигация", "подрядчик", "строитель", "прораб"],
+      "is_free": true,
+      "monetization": "привлечение к платным ботам",
+      "status": "active"
+    },
+    {
+      "name": "Архимед",
+      "role": "Стратег и финансовый инженер",
+      "username": "@marketing_haus_price_bot",
+      "description": "Рассчитывает бюджеты, строит финансовые модели и пошаговые планы строительства. ПЛАТНЫЙ бот.",
+      "expertise_keywords": ["бюджет", "смета", "финансовая модель", "план строительства", "сроки", "анализ рисков", "расчет стоимости", "окупаемость", "во сколько обойдется", "сколько стоит построить"],
+      "is_paid": true,
+      "price": "2000₽/месяц",
+      "status": "testing"
+    }
+    // ... остальные боты с добавлением status: "testing"
+  ]
+}
